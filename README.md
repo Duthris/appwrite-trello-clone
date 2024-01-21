@@ -1,10 +1,10 @@
-# Appwrite Cloud + Next.js Trello Clone
+# Next.js + Appwrite Cloud + Zustand Trello Clone
 
 DEMO 👉[Duthris Trello Demo](https://trello.duthris.com/)
 
-This is an example demo to try [Appwrite Cloud](https://cloud.appwrite.io/) powered frontend for the trello daily task app using [Next.js](https://github.com/zeit/next.js/).
+This is an example demo of the trello daily task todo app to try [Appwrite Cloud](https://cloud.appwrite.io/), [Next.js](https://github.com/zeit/next.js/), [Zustand](https://github.com/pmndrs/zustand).
 
-That is just a starter demo to learn Next.js and to try Appwrite Cloud. Just for now that is not user based. When authentication has added, doable features in the project will be improved.
+That is just a starter demo to learn Next.js and to try Appwrite Cloud and Zustand. Just for now that is not user based. When authentication has added, doable features in the project will be improved.
 
 ## Setup
 
