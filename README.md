@@ -1,6 +1,6 @@
 # Next.js + Appwrite Cloud + Zustand Trello Clone
 
-DEMO 👉[Duthris Trello Demo](https://trello.duthris.com/)
+DEMO 👉 [Duthris Trello Demo](https://trello.duthris.com/)
 
 This is an example demo of the trello daily task todo app to try [Appwrite Cloud](https://cloud.appwrite.io/), [Next.js](https://github.com/zeit/next.js/), [Zustand](https://github.com/pmndrs/zustand).
 
