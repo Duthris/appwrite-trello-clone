@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Appwrite Cloud + Next.js Trello Clone
 
-## Getting Started
+DEMO 👉[Duthris Trello Demo](https://trello.duthris.com/)
 
-First, run the development server:
+This is an example demo to try [Appwrite Cloud](https://cloud.appwrite.io/) powered frontend for the trello daily task app using [Next.js](https://github.com/zeit/next.js/).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Setup
+
+Get the code by either cloning this repository using git
+
+```
+git clone https://github.com/Duthris/appwrite-trello-clone.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once downloaded, open the terminal in the project directory, and install dependencies with:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Once you have created a web project, and inside of it, a database and collection for that database, and a storage to store images, give localhost to hostname of the project in appwrite cloud.
+Then see the .env.local.example file and rename it as .env.local. Then set your appwrite cloud project id, database id, collection id, and storage id.
 
-## Learn More
+```
+NEXT_PUBLIC_APPWRITE_PROJECT_ID='YOUR APPWRITE CLOUD PROJECT ID'
+NEXT_PUBLIC_DATABASE_ID='YOUR APPWRITE DATABASE ID'
+NEXT_PUBLIC_TODOS_COLLECTION_ID='YOUR APPWRITE COLLECTION ID'
+NEXT_PUBLIC_TODOS_STORAGE_ID='YOUR APPWRITE STORAGE ID'
+```
 
-To learn more about Next.js, take a look at the following resources:
+Then start the example app with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app should now be up and running at http://localhost:3000 🚀
